@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>64B1C1D0-C820-4761-9C2B-39C0D13CA245</string>
+	<key>IDESourceControlProjectName</key>
+	<string>InterviewQuestionsTestCases</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>518F9B36-645E-4C39-AD2D-81B8688AAE6C</key>
+		<string>ssh://github.com/austimkelly/sandbox.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOSUnitTester/InterviewQuestionsTestCases.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>518F9B36-645E-4C39-AD2D-81B8688AAE6C</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/austimkelly/sandbox.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>518F9B36-645E-4C39-AD2D-81B8688AAE6C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>518F9B36-645E-4C39-AD2D-81B8688AAE6C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sandbox</string>
+		</dict>
+	</array>
+</dict>
+</plist>
