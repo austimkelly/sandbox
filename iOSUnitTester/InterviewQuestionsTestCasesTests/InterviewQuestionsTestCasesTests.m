@@ -80,7 +80,7 @@
     pass = [TestCases isPalindrome:@"AABBCCDDEE"];
     XCTAssert(pass == NO, @"Passed test when it should have failed");
     
-}
+}   
 
 - (void)testRecursiveFibonacci{
     

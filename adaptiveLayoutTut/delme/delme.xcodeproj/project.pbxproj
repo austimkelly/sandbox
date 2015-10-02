@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBD272C01B961359004A7E39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD272BF1B961359004A7E39 /* AppDelegate.swift */; };
+		DBD272C21B961359004A7E39 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD272C11B961359004A7E39 /* MasterViewController.swift */; };
+		DBD272C41B961359004A7E39 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD272C31B961359004A7E39 /* DetailViewController.swift */; };
+		DBD272C71B961359004A7E39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD272C51B961359004A7E39 /* Main.storyboard */; };
+		DBD272C91B961359004A7E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD272C81B961359004A7E39 /* Assets.xcassets */; };
+		DBD272CC1B961359004A7E39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD272CA1B961359004A7E39 /* LaunchScreen.storyboard */; };
+		DBD272D71B961359004A7E39 /* delmeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD272D61B961359004A7E39 /* delmeTests.swift */; };
+		DBD272E21B961359004A7E39 /* delmeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD272E11B961359004A7E39 /* delmeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBD272D31B961359004A7E39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBD272B41B961359004A7E39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD272BB1B961359004A7E39;
+			remoteInfo = delme;
+		};
+		DBD272DE1B961359004A7E39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBD272B41B961359004A7E39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD272BB1B961359004A7E39;
+			remoteInfo = delme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBD272BC1B961359004A7E39 /* delme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = delme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD272BF1B961359004A7E39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBD272C11B961359004A7E39 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		DBD272C31B961359004A7E39 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DBD272C61B961359004A7E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBD272C81B961359004A7E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBD272CB1B961359004A7E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBD272CD1B961359004A7E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD272D21B961359004A7E39 /* delmeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = delmeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD272D61B961359004A7E39 /* delmeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = delmeTests.swift; sourceTree = "<group>"; };
+		DBD272D81B961359004A7E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD272DD1B961359004A7E39 /* delmeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = delmeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD272E11B961359004A7E39 /* delmeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = delmeUITests.swift; sourceTree = "<group>"; };
+		DBD272E31B961359004A7E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBD272B91B961359004A7E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD272CF1B961359004A7E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD272DA1B961359004A7E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBD272B31B961359004A7E39 = {
+			isa = PBXGroup;
+			children = (
+				DBD272BE1B961359004A7E39 /* delme */,
+				DBD272D51B961359004A7E39 /* delmeTests */,
+				DBD272E01B961359004A7E39 /* delmeUITests */,
+				DBD272BD1B961359004A7E39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBD272BD1B961359004A7E39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBD272BC1B961359004A7E39 /* delme.app */,
+				DBD272D21B961359004A7E39 /* delmeTests.xctest */,
+				DBD272DD1B961359004A7E39 /* delmeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBD272BE1B961359004A7E39 /* delme */ = {
+			isa = PBXGroup;
+			children = (
+				DBD272BF1B961359004A7E39 /* AppDelegate.swift */,
+				DBD272C11B961359004A7E39 /* MasterViewController.swift */,
+				DBD272C31B961359004A7E39 /* DetailViewController.swift */,
+				DBD272C51B961359004A7E39 /* Main.storyboard */,
+				DBD272C81B961359004A7E39 /* Assets.xcassets */,
+				DBD272CA1B961359004A7E39 /* LaunchScreen.storyboard */,
+				DBD272CD1B961359004A7E39 /* Info.plist */,
+			);
+			path = delme;
+			sourceTree = "<group>";
+		};
+		DBD272D51B961359004A7E39 /* delmeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBD272D61B961359004A7E39 /* delmeTests.swift */,
+				DBD272D81B961359004A7E39 /* Info.plist */,
+			);
+			path = delmeTests;
+			sourceTree = "<group>";
+		};
+		DBD272E01B961359004A7E39 /* delmeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBD272E11B961359004A7E39 /* delmeUITests.swift */,
+				DBD272E31B961359004A7E39 /* Info.plist */,
+			);
+			path = delmeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBD272BB1B961359004A7E39 /* delme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD272E61B961359004A7E39 /* Build configuration list for PBXNativeTarget "delme" */;
+			buildPhases = (
+				DBD272B81B961359004A7E39 /* Sources */,
+				DBD272B91B961359004A7E39 /* Frameworks */,
+				DBD272BA1B961359004A7E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = delme;
+			productName = delme;
+			productReference = DBD272BC1B961359004A7E39 /* delme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBD272D11B961359004A7E39 /* delmeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD272E91B961359004A7E39 /* Build configuration list for PBXNativeTarget "delmeTests" */;
+			buildPhases = (
+				DBD272CE1B961359004A7E39 /* Sources */,
+				DBD272CF1B961359004A7E39 /* Frameworks */,
+				DBD272D01B961359004A7E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBD272D41B961359004A7E39 /* PBXTargetDependency */,
+			);
+			name = delmeTests;
+			productName = delmeTests;
+			productReference = DBD272D21B961359004A7E39 /* delmeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBD272DC1B961359004A7E39 /* delmeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD272EC1B961359004A7E39 /* Build configuration list for PBXNativeTarget "delmeUITests" */;
+			buildPhases = (
+				DBD272D91B961359004A7E39 /* Sources */,
+				DBD272DA1B961359004A7E39 /* Frameworks */,
+				DBD272DB1B961359004A7E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBD272DF1B961359004A7E39 /* PBXTargetDependency */,
+			);
+			name = delmeUITests;
+			productName = delmeUITests;
+			productReference = DBD272DD1B961359004A7E39 /* delmeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBD272B41B961359004A7E39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Fizzy Artwerks";
+				TargetAttributes = {
+					DBD272BB1B961359004A7E39 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DBD272D11B961359004A7E39 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DBD272BB1B961359004A7E39;
+					};
+					DBD272DC1B961359004A7E39 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DBD272BB1B961359004A7E39;
+					};
+				};
+			};
+			buildConfigurationList = DBD272B71B961359004A7E39 /* Build configuration list for PBXProject "delme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBD272B31B961359004A7E39;
+			productRefGroup = DBD272BD1B961359004A7E39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBD272BB1B961359004A7E39 /* delme */,
+				DBD272D11B961359004A7E39 /* delmeTests */,
+				DBD272DC1B961359004A7E39 /* delmeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBD272BA1B961359004A7E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD272CC1B961359004A7E39 /* LaunchScreen.storyboard in Resources */,
+				DBD272C91B961359004A7E39 /* Assets.xcassets in Resources */,
+				DBD272C71B961359004A7E39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD272D01B961359004A7E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD272DB1B961359004A7E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBD272B81B961359004A7E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD272C41B961359004A7E39 /* DetailViewController.swift in Sources */,
+				DBD272C21B961359004A7E39 /* MasterViewController.swift in Sources */,
+				DBD272C01B961359004A7E39 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD272CE1B961359004A7E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD272D71B961359004A7E39 /* delmeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD272D91B961359004A7E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD272E21B961359004A7E39 /* delmeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBD272D41B961359004A7E39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBD272BB1B961359004A7E39 /* delme */;
+			targetProxy = DBD272D31B961359004A7E39 /* PBXContainerItemProxy */;
+		};
+		DBD272DF1B961359004A7E39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBD272BB1B961359004A7E39 /* delme */;
+			targetProxy = DBD272DE1B961359004A7E39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBD272C51B961359004A7E39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBD272C61B961359004A7E39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBD272CA1B961359004A7E39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBD272CB1B961359004A7E39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBD272E41B961359004A7E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBD272E51B961359004A7E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBD272E71B961359004A7E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = delme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fizzyartwerks.delme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBD272E81B961359004A7E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = delme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fizzyartwerks.delme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DBD272EA1B961359004A7E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = delmeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fizzyartwerks.delmeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/delme.app/delme";
+			};
+			name = Debug;
+		};
+		DBD272EB1B961359004A7E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = delmeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fizzyartwerks.delmeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/delme.app/delme";
+			};
+			name = Release;
+		};
+		DBD272ED1B961359004A7E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = delmeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fizzyartwerks.delmeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = delme;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DBD272EE1B961359004A7E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = delmeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fizzyartwerks.delmeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = delme;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBD272B71B961359004A7E39 /* Build configuration list for PBXProject "delme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD272E41B961359004A7E39 /* Debug */,
+				DBD272E51B961359004A7E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD272E61B961359004A7E39 /* Build configuration list for PBXNativeTarget "delme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD272E71B961359004A7E39 /* Debug */,
+				DBD272E81B961359004A7E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBD272E91B961359004A7E39 /* Build configuration list for PBXNativeTarget "delmeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD272EA1B961359004A7E39 /* Debug */,
+				DBD272EB1B961359004A7E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBD272EC1B961359004A7E39 /* Build configuration list for PBXNativeTarget "delmeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD272ED1B961359004A7E39 /* Debug */,
+				DBD272EE1B961359004A7E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBD272B41B961359004A7E39 /* Project object */;
+}
