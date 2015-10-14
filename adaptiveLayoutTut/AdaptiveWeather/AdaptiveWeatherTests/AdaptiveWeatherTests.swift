@@ -3,13 +3,16 @@
 //  AdaptiveWeatherTests
 //
 //  Created by Tim Kelly on 8/28/15.
-//  Copyright (c) 2015 Fizzy Artwerks. All rights reserved.
+//  Copyright (c) 2015 FizzyArtwerks. All rights reserved.
 //
+
 
 import UIKit
 import XCTest
 
+
 class AdaptiveWeatherTests: XCTestCase {
+    
     
     override func setUp() {
         super.setUp()
@@ -21,10 +24,10 @@ class AdaptiveWeatherTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
-    }
+//    func testExample() {
+//        // This is an example of a functional test case.
+//        XCTAssert(true, "Pass")
+//    }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
@@ -32,5 +35,6 @@ class AdaptiveWeatherTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+   
     
 }
