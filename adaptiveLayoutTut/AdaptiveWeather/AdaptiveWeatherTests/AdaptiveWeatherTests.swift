@@ -3,13 +3,16 @@
 //  AdaptiveWeatherTests
 //
 //  Created by Tim Kelly on 8/28/15.
-//  Copyright (c) 2015 Fizzy Artwerks. All rights reserved.
+//  Copyright (c) 2015-2016 FizzyArtwerks. All rights reserved.
 //
+
 
 import UIKit
 import XCTest
 
+
 class AdaptiveWeatherTests: XCTestCase {
+
     
     override func setUp() {
         super.setUp()
@@ -32,5 +35,6 @@ class AdaptiveWeatherTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
     
 }
